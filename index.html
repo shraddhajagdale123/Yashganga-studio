@@ -477,10 +477,10 @@
         };
         
         let servicesData = [
-            { id: 1, name: "Portrait Sessions", description: "Professional headshots & personal branding", price: "$249 / session", icon: "fas fa-camera-retro" },
-            { id: 2, name: "Fashion Editorial", description: "High fashion lookbooks & editorial", price: "$490 / session", icon: "fas fa-tshirt" },
-            { id: 3, name: "Commercial", description: "Product & corporate photography", price: "$599 / project", icon: "fas fa-building" },
-            { id: 4, name: "Events & Weddings", description: "Full event coverage & storytelling", price: "$1,290 / event", icon: "fas fa-calendar-alt" }
+            { id: 1, name: "Portrait Sessions", description: "Professional headshots & personal branding", icon: "fas fa-camera-retro" },
+            { id: 2, name: "Fashion Editorial", description: "High fashion lookbooks & editorial", icon: "fas fa-tshirt" },
+            { id: 3, name: "Commercial", description: "Product & corporate photography", icon: "fas fa-building" },
+            { id: 4, name: "Events & Weddings", description: "Full event coverage & storytelling", icon: "fas fa-calendar-alt" }
         ];
         
         let inquiriesData = [];
@@ -531,7 +531,7 @@
                     setShowLoginModal(false);
                     showToast('Welcome Owner! You can now manage services, owner profile, and inquiries.', '#c49a6c');
                 } else {
-                    showToast('Incorrect password. Use: studio123', '#dc3545');
+                    showToast('Incorrect password., '#dc3545');
                 }
             };
             
@@ -801,8 +801,8 @@
                             <h2 className="section-title">Investment Packages</h2>
                             <p className="section-subtitle">Choose the perfect plan for your vision</p>
                             <div className="services-grid">
-                                <div className="service-card"><h3>Essentials</h3><div className="price">$349</div><p>1 hour session · 15 edited images · Online gallery</p><button className="btn-primary" style={{marginTop: '20px'}} onClick={() => scrollToSection('inquiry')}>Inquire</button></div>
-                                <div className="service-card" style={{border: '2px solid #c49a6c'}}><h3>Signature ⭐</h3><div className="price">$790</div><p>2.5 hour session · 40+ images · Two categories · Print release</p><button className="btn-primary" style={{marginTop: '20px'}} onClick={() => scrollToSection('inquiry')}>Most Popular</button></div>
+                                <div className="service-card"><h3>Essentials</h3><p>1 hour session · 15 edited images · Online gallery</p><button className="btn-primary" style={{marginTop: '20px'}} onClick={() => scrollToSection('inquiry')}>Inquire</button></div>
+                                <div className="service-card" style={{border: '2px solid #c49a6c'}}><h3>Signature ⭐</h3><p>2.5 hour session · 40+ images · Two categories · Print release</p><button className="btn-primary" style={{marginTop: '20px'}} onClick={() => scrollToSection('inquiry')}>Most Popular</button></div>
                                 <div className="service-card"><h3>Premium Event</h3><p>Full day coverage · 200+ finals · Luxury album</p><button className="btn-primary" style={{marginTop: '20px'}} onClick={() => scrollToSection('inquiry')}>Inquire</button></div>
                             </div>
                         </div>
@@ -860,7 +860,7 @@
                     {/* Footer */}
                     <footer>
                         <div className="container">
-                            <h3 style={{color: '#c49a6c', marginBottom: '20px'}}>YASHGANGA STUDIO</h3>
+                            <h3 style={{color: '#c49a6c', marginBottom: '20px'}}>YASHGANGA PHOTOS</h3>
                             <p style={{marginBottom: '10px'}}>कन्या शाळेमागे,यशवंतराव विद्यालय umbraj 415109  </p>
                             <p style={{marginBottom: '10px'}}>📞 9923329129 /8459380540 | ✉️ hello@yashgangastudio.com</p>
                             <p style={{marginTop: '30px', fontSize: '0.8rem'}}>© 2025 YASHGANGA Studio — Premium Photography. All rights reserved.</p>
